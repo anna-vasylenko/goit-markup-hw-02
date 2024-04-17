@@ -16,14 +16,14 @@ a {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
-.logo-web {
-  color: #4d5ae5;
+.logo-studio {
+  color: #2e2f42;
 }
 
 .header-nav {
@@ -40,12 +40,14 @@ a {
   color: #404bbf;
 }
 
+.contacts {
+  font-style: normal;
+}
 .header-contact-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  font-style: normal;
 }
 
 .header-contact-link:hover,
@@ -60,13 +62,14 @@ a {
 .main-page-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
 
 .main-page-btn {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -74,19 +77,17 @@ a {
   color: #fff;
   cursor: pointer;
   background: #4d5ae5;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #4d5ae5;
 }
 
-.main-page-btn:hover {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+.main-page-btn:hover,
+.main-page-btn:focus {
   background: #404bbf;
 }
 
 .features-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -113,10 +114,15 @@ a {
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
+}
+
+.team-member-card {
+  background-color: #ffffff;
 }
 
 .team-member-name {
@@ -138,10 +144,11 @@ a {
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .portfolio-item-title {
@@ -168,14 +175,14 @@ a {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: #4d5ae5;
 }
 
-.footer-logo-web {
-  color: #4d5ae5;
+.footer-logo-studio {
+  color: #f4f4fd;
 }
 
 .footer-text {
